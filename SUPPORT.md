@@ -2,9 +2,9 @@
 
 Need help with Faber Companion (iPhone) or Faber for Mac?
 
-- Email: yashwantreddykatipally@gmail.com
-- Bugs and feature requests: https://github.com/katipally/faber-releases/issues
-- Privacy policy: https://github.com/katipally/faber-releases/blob/main/PRIVACY.md
+- Email: yashwanthreddykatipally@gmail.com
+- Bugs and feature requests: https://github.com/katipally/faber-ADE/issues
+- Privacy policy: https://github.com/katipally/faber-ADE/blob/main/PRIVACY.md
 
 ## Pairing your iPhone
 

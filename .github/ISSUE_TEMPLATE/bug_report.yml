@@ -1,0 +1,48 @@
+name: Bug report
+description: Something in Faber does not work as expected.
+labels: [bug]
+body:
+  - type: input
+    id: faber_version
+    attributes:
+      label: Faber version
+      description: Faber menu, About Faber.
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: macos_version
+    attributes:
+      label: macOS version
+      placeholder: "26.0"
+    validations:
+      required: true
+  - type: input
+    id: agent
+    attributes:
+      label: Agent used
+      description: Which agent was running, and whether it was a terminal or a chat column. Write "none" if it was not agent related.
+      placeholder: "Claude Code, terminal"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open a worktree
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Paste relevant log lines or a crash report. Remove secrets, tokens and private code first.
+      render: shell

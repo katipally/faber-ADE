@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Pairing and alert help
+    url: https://github.com/katipally/faber-ADE/blob/main/SUPPORT.md
+    about: Steps for pairing the iPhone companion and fixing missing alerts.
+  - name: Privacy question
+    url: https://github.com/katipally/faber-ADE/blob/main/PRIVACY.md
+    about: What Faber sends and how to turn it off.

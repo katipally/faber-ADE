@@ -1,0 +1,59 @@
+DRAFT for the owner to have reviewed by a lawyer before publishing.
+
+Faber End User License Agreement
+Copyright (c) 2026 Yashwanth Reddy Katipally. All rights reserved.
+
+This agreement is between you and Yashwanth Reddy Katipally ("the Author") and covers the Faber application for macOS and the Faber Companion application for iPhone, with their updates (together "Faber"). By installing or using Faber you accept it. If you do not accept it, do not use Faber.
+
+1. What you may do
+
+Faber is free. You may install and use it on any devices you own or control, for personal or commercial work, with no fee and no limit on the number of projects. You may make one backup copy.
+
+2. What you may not do
+
+You may not:
+
+- copy or redistribute Faber, in whole or in part, in any form, or host it for others to download;
+- modify Faber or create derivative works from it;
+- sell, rent, lease, sublicense or otherwise commercialize Faber itself;
+- reverse engineer, decompile or disassemble Faber, or try to extract its source code, except to the extent the law of your country lets you do so despite this limit;
+- remove or change any copyright or license notice;
+- use Faber to break the law or to harm others.
+
+The official download is the Releases page of https://github.com/katipally/faber-ADE. Faber's automatic updates come from there.
+
+3. Your work stays yours
+
+Faber does not claim any right in your code, prompts, files or the output of the agents you run with it. The agents and tools you run through Faber (for example Claude Code, Codex or Gemini CLI) are separate products with their own terms, which you accept with them.
+
+4. Third-party components
+
+Faber includes third-party software under its own licenses. Those licenses, not this agreement, govern those components. The list and license texts are in THIRD_PARTY_NOTICES.md, published in this repository.
+
+5. Mods
+
+Mods in the mods/ folder of this repository, and any other mod you install, belong to their authors and stay under the license each author chose. This agreement does not cover them. A mod runs with the permissions you approve on its consent card, and you install and enable mods at your own risk.
+
+6. Updates and changes
+
+Faber can check for and install updates, which are covered by this agreement unless they come with new terms. The Author may change this agreement for future versions. Continuing to use a new version means you accept its terms.
+
+7. No warranty
+
+Faber is provided "as is" and "as available", without warranty of any kind, express or implied, including merchantability, fitness for a particular purpose, non-infringement and uninterrupted or error-free operation. Faber runs software agents that can read, change and delete files and run commands on your computer. You are responsible for what they do, for your backups, and for reviewing what they change.
+
+8. Limitation of liability
+
+To the maximum extent the law allows, the Author is not liable for any indirect, incidental, special, consequential or punitive damages, or for loss of data, profits, revenue or business, arising from or related to Faber or this agreement, even if told they were possible. Where the law does not allow that exclusion, the Author's total liability is limited to the greater of the amount you paid for Faber or US$50. Nothing here limits liability that cannot be limited by law.
+
+9. Termination
+
+This agreement lasts until it ends. It ends automatically if you break it. The Author may also end it for any reason by stopping distribution of Faber. When it ends you must stop using Faber and delete your copies. Sections 2, 3, 4, 5, 7, 8 and 10 survive termination.
+
+10. General
+
+This agreement is the whole agreement about Faber between you and the Author. If a part of it is unenforceable, the rest stays in force. Not enforcing a part is not a waiver of it. This agreement is governed by the laws of the State of California, USA, excluding its conflict-of-law rules. The state and federal courts located in Santa Clara County, California have exclusive venue for any dispute about it. If you use Faber outside the United States, mandatory consumer protection laws of your country still apply to the extent they cannot be waived. Apple's standard license terms also apply to Faber Companion when you get it from the App Store.
+
+11. Contact
+
+Questions about this license: yashwanthreddykatipally@gmail.com

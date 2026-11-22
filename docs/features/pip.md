@@ -8,7 +8,10 @@ Faber has two picture-in-picture style features.
 
 The pane header has a Float tab button (shortcut Option F). It lifts that tab into a window of its own that sits above other apps and can be dragged to any display and resized. Press the button again, or Option F, to dock it back.
 
-![A floated tab over another app](../assets/screens/pip-1.png)
+<video controls muted loop playsinline width="100%" poster="../assets/screens/hero-1.png">
+  <source src="../assets/screens/pip-float.mp4" type="video/mp4">
+  <img src="../assets/screens/pip-float.gif" alt="A terminal tab floating over the main window, then docking back">
+</video>
 
 Details:
 

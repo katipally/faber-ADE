@@ -2,6 +2,10 @@
 title: Troubleshooting
 description: Fixes for updates, agents, alerts, pairing and the Simulator.
 ---
+## macOS warns about Faber
+
+Releases are signed with a Developer ID and notarized by Apple, so a warning means the download is not an official one. Download the zip again from [Releases](https://github.com/katipally/faber-ADE/releases/latest).
+
 ## An agent does not start
 
 Faber launches the CLI from your PATH. Open Settings, Agents to see what is installed and the install command for the rest. For a custom agent, check the command and arguments in Settings, Agents, Custom agents.

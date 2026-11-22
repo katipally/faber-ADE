@@ -10,9 +10,9 @@ description: Download Faber, first run, command line setup and automatic updates
 
 ## Install
 
-1. Open the [latest release](https://github.com/katipally/faber-ADE/releases/latest) and download the Faber zip.
+1. Open the [latest release](https://github.com/katipally/faber-ADE/releases/latest) and download `Faber-<version>.zip` (release tags are `mac-v<version>`).
 2. Unzip it and drag Faber to Applications.
-3. Open Faber.
+3. Open Faber. Releases are signed with a Developer ID and notarized by Apple, so Gatekeeper opens them without a warning.
 
 ![The Releases page with the Faber zip highlighted](assets/screens/install-and-update-1.png)
 

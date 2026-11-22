@@ -1,0 +1,7 @@
+{
+  "id": "brief-injector",
+  "version": "1.0.0",
+  "description": "Adds a project brief to every prompt",
+  "requires": ["context.add"],
+  "settings": { "brief": { "type": "string", "default": "" } }
+}

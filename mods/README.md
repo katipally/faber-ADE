@@ -72,6 +72,10 @@ You can also keep a mod in your own repo and open a pull request that adds only 
 
 Reviews check that the code runs, matches its manifest and README, and holds no secrets. Mods that send data off the machine (`http.fetch`, `process.run`) must say where in the README.
 
+## Checks
+
+A workflow validates `.faber/marketplace.json` and every `mods/<id>/` folder on each pull request. Run it yourself with `python3 .github/scripts/validate_mods.py`. Say which license your mod uses in `mod.json` or in a LICENSE file in its folder.
+
 ## Reference
 
 The full mod format, capabilities and `$` API are in the Faber app under Settings, Mods, and in the `faber-mods` skill that Faber gives your agent.

@@ -1,0 +1,6 @@
+{
+  "id": "shell-guard-rewrite",
+  "version": "1.0.0",
+  "description": "Rewrites bare npm install to npm ci",
+  "requires": ["tool.rewrite"]
+}

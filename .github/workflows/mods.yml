@@ -1,0 +1,22 @@
+name: Validate mods
+
+on:
+  push:
+    branches: [main]
+    paths: [mods/**, .faber/marketplace.json, .github/scripts/validate_mods.py, .github/workflows/mods.yml]
+  pull_request:
+    paths: [mods/**, .faber/marketplace.json, .github/scripts/validate_mods.py, .github/workflows/mods.yml]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: mods-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - run: python3 .github/scripts/validate_mods.py

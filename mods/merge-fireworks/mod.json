@@ -1,0 +1,6 @@
+{
+  "id": "merge-fireworks",
+  "version": "1.1.0",
+  "description": "Fireworks over the window when a watched pull request merges",
+  "requires": ["look"]
+}

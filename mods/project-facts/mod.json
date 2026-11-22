@@ -1,0 +1,6 @@
+{
+  "id": "project-facts",
+  "version": "1.0.0",
+  "description": "Gives the agent a todo_count tool that counts TODO and FIXME comments in the open project",
+  "requires": ["tool.register", "fs.read"]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "house-rules",
+  "version": "1.0.0",
+  "description": "Adds your house rules to the system prompt of new sessions",
+  "requires": ["prompt.compose"],
+  "settings": {
+    "rules": { "type": "string", "default": "- Keep answers short.\n- Prefer small, reviewable changes.\n- Ask before deleting files." }
+  }
+}

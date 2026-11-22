@@ -1,0 +1,10 @@
+{
+  "id": "context-meter",
+  "version": "1.1.0",
+  "description": "Shows context window use in the status bar and chat band",
+  "requires": ["usage", "ui.status", "ui.band"],
+  "config": {
+    "warnAt": { "type": "number", "title": "Warn at (%)", "default": 65, "description": "Context use above which the meter turns amber." },
+    "dangerAt": { "type": "number", "title": "Alert at (%)", "default": 85, "description": "Context use above which the meter turns red." }
+  }
+}

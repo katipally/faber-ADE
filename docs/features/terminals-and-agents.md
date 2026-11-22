@@ -6,7 +6,11 @@ Terminals are libghostty terminals. They keep running through app updates becaus
 
 ## Built-in agents
 
-Claude Code, Codex, Gemini CLI, OpenCode, GitHub Copilot, Cursor CLI, Amp, Goose, Aider, Grok, Pi, Oh My Pi, Droid, Kimi Code, Qwen Code, Cline, Kiro, Devin, Crush, Auggie, Mistral Vibe and Antigravity.
+Faber has 23 built-in terminal agents:
+
+Claude Code, Codex, Gemini CLI, OpenCode, GitHub Copilot, Cursor CLI, Amp, Goose, Aider, Grok, Pi, Oh My Pi, Droid, Kimi Code, Qwen Code, Cline, Kiro, Devin, Crush, Auggie, Mistral Vibe and Antigravity and Hermes.
+
+Nine of them also run in native [chat](chat.html) columns: Claude Code, Codex, Antigravity, Cursor CLI, Grok, Hermes, OpenCode, Pi and Oh My Pi. Other agents can be added to chat from the agent registry.
 
 Start one from the + menu, the new worktree sheet, the [Quick Wheel](quick-composer-and-wheel.html), or `faber ... --agent`. Agents with a hook installer report their status through hooks; the rest are followed by their process, terminal title and screen.
 

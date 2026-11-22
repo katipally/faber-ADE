@@ -1,6 +1,6 @@
 # Faber
 
-A native Mac workbench for coding agents. Run Claude Code, Codex, Gemini CLI and more than twenty other agents side by side, each task in its own git worktree, with review, browser and phone control in the same window.
+A native Mac workbench for coding agents. Run Claude Code, Codex, Gemini CLI and 20 other agents side by side, each task in its own git worktree, with review, browser and phone control in the same window.
 
 ![Faber main window with a worktree, a terminal agent column and a chat column](docs/assets/screens/hero-1.png)
 
@@ -10,7 +10,7 @@ Faber is free to use, personal or commercial. This repo hosts releases, the upda
 
 ## Download
 
-Get the latest build from [Releases](https://github.com/katipally/faber-ADE/releases/latest). Faber updates itself after the first install. Details: [install and update](https://katipally.github.io/faber-ADE/install-and-update.html).
+Get the latest build from [Releases](https://github.com/katipally/faber-ADE/releases/latest). Releases are signed with a Developer ID and notarized by Apple. Faber updates itself after the first install. Details: [install and update](https://katipally.github.io/faber-ADE/install-and-update.html).
 
 ## What it does
 

@@ -10,6 +10,10 @@ Yes, to download and use, for personal or commercial work. See the [license](htt
 
 No. This repo holds releases, the update feed, issues, community mods, the license and the privacy policy.
 
+## Is Faber signed and notarized?
+
+Yes. Every Mac release is signed with a Developer ID and notarized by Apple.
+
 ## Does Faber include the agents?
 
 No. It launches the agent CLIs installed on your Mac and uses your own sign-ins and plans. It does not store or change agent credentials.
@@ -28,7 +32,7 @@ The app requires macOS 26 or later.
 
 ## Which agents are supported?
 
-More than twenty are built in, including Claude Code, Codex, Gemini CLI, OpenCode, GitHub Copilot, Cursor CLI, Amp, Goose and Aider. You can add your own command. See [terminals and agents](features/terminals-and-agents.html).
+23 are built in, including Claude Code, Codex, Gemini CLI, OpenCode, GitHub Copilot, Cursor CLI, Amp, Goose and Aider. You can add your own command. See [terminals and agents](features/terminals-and-agents.html).
 
 ## Does the phone need a server?
 

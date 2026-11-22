@@ -1,0 +1,39 @@
+- title: Start
+  items:
+    - { title: Home, url: /index.html }
+    - { title: Install and update, url: /install-and-update.html }
+- title: Features
+  items:
+    - { title: Terminals and agents, url: /features/terminals-and-agents.html }
+    - { title: Chat, url: /features/chat.html }
+    - { title: Workspaces and layouts, url: /features/workspaces-and-layouts.html }
+    - { title: Git and pull requests, url: /features/git-and-prs.html }
+    - { title: Browser, url: /features/browser.html }
+    - { title: Apps, url: /features/apps.html }
+    - { title: Files and markdown, url: /features/files-and-markdown.html }
+    - { title: Floating windows (PiP), url: /features/pip.html }
+    - { title: Quick composer and wheel, url: /features/quick-composer-and-wheel.html }
+    - { title: Scheduled agents, url: /features/scheduled-agents.html }
+    - { title: History, url: /features/history.html }
+    - { title: Usage and Home, url: /features/usage-and-home.html }
+    - { title: iOS Simulator, url: /features/simulator.html }
+    - { title: Plugins, skills and MCP, url: /features/plugins-skills-mcp.html }
+    - { title: CLI and control API, url: /features/cli-and-control-api.html }
+    - { title: Keep awake, url: /features/insomnia.html }
+    - { title: Settings and themes, url: /features/settings-and-themes.html }
+    - { title: Privacy and telemetry, url: /features/privacy-and-telemetry.html }
+- title: iPhone
+  items:
+    - { title: Overview, url: /phone/overview.html }
+    - { title: Pairing, url: /phone/pairing.html }
+    - { title: Features, url: /phone/features.html }
+- title: Mods
+  items:
+    - { title: Overview, url: /mods/overview.html }
+    - { title: Installing, url: /mods/installing.html }
+    - { title: Writing a mod, url: /mods/writing-a-mod.html }
+    - { title: Publishing and marketplace, url: /mods/publishing-and-marketplace.html }
+- title: Help
+  items:
+    - { title: FAQ, url: /faq.html }
+    - { title: Troubleshooting, url: /troubleshooting.html }

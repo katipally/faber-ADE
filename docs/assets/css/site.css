@@ -1,0 +1,28 @@
+:root{--bg:#fff;--fg:#1c1f24;--muted:#5a6270;--line:#e3e6eb;--accent:#d2521e;--code:#f4f5f7;--panel:#f8f9fb}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1115;--fg:#e6e8ec;--muted:#98a1b0;--line:#272b33;--accent:#ff8f3a;--code:#1a1d23;--panel:#14171c}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+a{color:var(--accent)}
+.top{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg);z-index:2}
+.brand{font-weight:700;font-size:1.1rem;text-decoration:none;color:var(--fg)}
+.gh{text-decoration:none}
+.shell{display:flex;gap:32px;max-width:1100px;margin:0 auto;padding:0 16px}
+.side{flex:0 0 230px;padding:16px 0;position:sticky;top:50px;align-self:flex-start;max-height:calc(100vh - 50px);overflow:auto}
+.side summary{display:none;cursor:pointer;font-weight:600}
+.side .group{margin:16px 0 4px;font-size:.75rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.side ul{list-style:none;margin:0;padding:0}
+.side a{display:block;padding:3px 8px;border-radius:6px;color:var(--fg);text-decoration:none;font-size:.92rem}
+.side a:hover,.side a[aria-current]{background:var(--panel);color:var(--accent)}
+main{flex:1;min-width:0;padding:16px 0 48px}
+h1{font-size:2rem;line-height:1.2;margin:.5em 0}
+h2{margin-top:2em;padding-bottom:.2em;border-bottom:1px solid var(--line)}
+img{max-width:100%;height:auto;border:1px solid var(--line);border-radius:8px}
+code{background:var(--code);padding:.1em .35em;border-radius:4px;font-size:.9em}
+pre{background:var(--code);padding:12px 14px;border-radius:8px;overflow-x:auto}
+pre code{padding:0;background:none}
+table{border-collapse:collapse;display:block;overflow-x:auto;max-width:100%}
+th,td{border:1px solid var(--line);padding:6px 10px;text-align:left}
+th{background:var(--panel)}
+footer{margin-top:64px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem}
+@media (max-width:800px){.shell{display:block}.side{position:static;max-height:none;padding:8px 0;border-bottom:1px solid var(--line)}.side summary{display:block}h1{font-size:1.6rem}}

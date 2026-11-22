@@ -1,0 +1,15 @@
+title: Faber
+description: A native Mac workbench for coding agents.
+url: https://katipally.github.io
+baseurl: /faber-ADE
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - assets/screens/SHOTLIST.md

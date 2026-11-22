@@ -53,8 +53,8 @@ def check_mod(folder):
             errors.append(f"{rel}/{f}: key file in a mod")
     if "README.md" not in files:
         errors.append(f"{rel}: README.md is required")
-    if not manifest.get("license") and not any(f.upper().startswith("LICENSE") for f in files):
-        warnings.append(f"{rel}: no license in mod.json or a LICENSE file")
+    if not isinstance(manifest.get("license"), str) or not manifest["license"].strip():
+        errors.append(f"{rel}: license is required in mod.json")
     return manifest
 
 

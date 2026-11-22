@@ -6,5 +6,6 @@
   "config": {
     "warnAt": { "type": "number", "title": "Warn at (%)", "default": 65, "description": "Context use above which the meter turns amber." },
     "dangerAt": { "type": "number", "title": "Alert at (%)", "default": 85, "description": "Context use above which the meter turns red." }
-  }
+  },
+  "license": "MIT"
 }

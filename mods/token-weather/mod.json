@@ -2,5 +2,6 @@
   "id": "token-weather",
   "version": "1.0.0",
   "description": "Context weather band: tier, percent, used and limit, a per-turn sparkline and the last turn's growth",
-  "requires": ["usage", "ui.band"]
+  "requires": ["usage", "ui.band"],
+  "license": "MIT"
 }

@@ -1,6 +1,6 @@
 # Community mods
 
-A mod changes how a Faber chat behaves: gate or rewrite tool calls, add context to prompts, show status, add panes. Each mod in this folder is written and licensed by its author. Faber does not review or endorse them, so read a mod's code and the permissions it asks for before you enable it. Faber shows a consent card with every capability a mod needs and asks again when its code changes.
+A mod changes how a Faber chat behaves: gate or rewrite tool calls, add context to prompts, show status, add panes. Each mod in this folder is written and licensed by its author; the seeded examples are MIT, see [LICENSE](LICENSE). Faber does not review or endorse them, so read a mod's code and the permissions it asks for before you enable it. Faber shows a consent card with every capability a mod needs and asks again when its code changes.
 
 ## Install a mod from here
 
@@ -53,7 +53,8 @@ Only `.ts`, `.tsx`, `.js` and `.json` files are loaded, 2 MB in all. The folder 
 | `entry` | Defaults to `register.ts`, then `register.tsx`. |
 | `agents` | Optional allowlist of providers. Omitted means all. |
 | `config` | Optional values users set on the Mods page. Use `type: "secret"` for keys; they stay in the user's Keychain. |
-| `author`, `license`, `repository`, `homepage` | Optional, shown on the consent card. |
+| `license` | Required for mods in this repo, an SPDX id such as `MIT`. Shown on the consent card. |
+| `author`, `repository`, `homepage` | Optional, shown on the consent card. |
 | `minFaberVersion` | Optional. An older Faber refuses to install it. |
 
 ## Submit a mod
@@ -66,7 +67,8 @@ Only `.ts`, `.tsx`, `.js` and `.json` files are loaded, 2 MB in all. The folder 
    { "id": "<id>", "source": "./mods/<id>", "version": "1.0.0", "description": "One line." }
    ```
 
-4. Say in the README what the mod needs and why.
+4. Set `license` in `mod.json`.
+5. Say in the README what the mod needs and why.
 
 You can also keep a mod in your own repo and open a pull request that adds only the marketplace entry, with `"source": "you/your-repo"`.
 
@@ -74,7 +76,7 @@ Reviews check that the code runs, matches its manifest and README, and holds no 
 
 ## Checks
 
-A workflow validates `.faber/marketplace.json` and every `mods/<id>/` folder on each pull request. Run it yourself with `python3 .github/scripts/validate_mods.py`. Say which license your mod uses in `mod.json` or in a LICENSE file in its folder.
+A workflow validates `.faber/marketplace.json` and every `mods/<id>/` folder on each pull request. Run it yourself with `python3 .github/scripts/validate_mods.py`. A mod without a `license` field fails the check.
 
 ## Reference
 

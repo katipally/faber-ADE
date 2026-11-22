@@ -2,5 +2,6 @@
   "id": "turn-timer",
   "version": "1.0.0",
   "description": "Shows how long the running turn has taken in the chat band",
-  "requires": ["clock", "ui.band"]
+  "requires": ["clock", "ui.band"],
+  "license": "MIT"
 }

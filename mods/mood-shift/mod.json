@@ -2,5 +2,6 @@
   "id": "mood-shift",
   "version": "1.0.0",
   "description": "A synthwave look whose chat surface shifts mood with the turn: tinted while the agent works, a flash on shell calls, red on errors, fireworks on a merge",
-  "requires": ["look", "ui.status"]
+  "requires": ["look", "ui.status"],
+  "license": "MIT"
 }

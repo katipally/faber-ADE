@@ -2,5 +2,6 @@
   "id": "tool-badges",
   "version": "1.0.0",
   "description": "Puts a badge before shell calls in the chat and folds long tool output into one line",
-  "requires": ["ui.transcript"]
+  "requires": ["ui.transcript"],
+  "license": "MIT"
 }

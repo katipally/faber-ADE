@@ -2,5 +2,6 @@
   "id": "session-notes",
   "version": "1.0.0",
   "description": "Keeps short notes per chat in a pane beside the chat",
-  "requires": ["ui.pane", "command.register"]
+  "requires": ["ui.pane", "command.register"],
+  "license": "MIT"
 }

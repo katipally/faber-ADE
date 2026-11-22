@@ -13,9 +13,8 @@ You may not:
   this restriction.
 
 Community mods:
-- Files under mods/ are written by their authors. Each mod's license is stated in
-  its mod.json or in a license file in its own folder. This notice does not
-  license them.
+- Community mods in mods/ are licensed under the license stated in each mod. The
+  seeded examples are MIT, see mods/LICENSE. This notice does not license them.
 
 Warranty and liability:
 Faber is provided "as is", without warranty of any kind, express or implied. To

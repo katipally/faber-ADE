@@ -2,5 +2,6 @@
   "id": "focus-dim",
   "version": "1.0.0",
   "description": "Dims the sidebar, inspector and header while an agent turn runs, with a /focus-dim command and a Ctrl+Shift+F key to switch it off or on",
-  "requires": ["look", "command.register", "keys.register"]
+  "requires": ["look", "command.register", "keys.register"],
+  "license": "MIT"
 }

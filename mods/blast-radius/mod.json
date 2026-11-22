@@ -2,5 +2,6 @@
   "id": "blast-radius",
   "version": "2.0.0",
   "description": "Holds recursive deletes and shows how many files they would remove",
-  "requires": ["tool.gate", "fs.read", "ui.toast", "ui.band"]
+  "requires": ["tool.gate", "fs.read", "ui.toast", "ui.band"],
+  "license": "MIT"
 }

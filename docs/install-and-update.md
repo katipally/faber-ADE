@@ -14,8 +14,6 @@ description: Download Faber, first run, command line setup and automatic updates
 2. Unzip it and drag Faber to Applications.
 3. Open Faber. Releases are signed with a Developer ID and notarized by Apple, so Gatekeeper opens them without a warning.
 
-![The Releases page with the Faber zip highlighted](assets/screens/install-and-update-1.png)
-
 ## First run
 
 A Mac with no workspace and no earlier settings opens a three-screen welcome in the main window:

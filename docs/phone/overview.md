@@ -4,8 +4,6 @@ description: Watch, approve and steer the agents on your Mac from your iPhone.
 ---
 Faber Companion shows and steers the coding agents running on your own Mac. The agents keep running on the Mac. The phone is a remote.
 
-![The iPhone app showing workspaces and a waiting approval](../assets/screens/phone-overview-1.png)
-
 ## What you need
 
 - Faber for Mac, running.

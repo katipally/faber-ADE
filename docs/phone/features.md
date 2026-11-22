@@ -12,7 +12,7 @@ description: Approvals, chat, terminals, changes, files, pull requests, usage, w
 - Pull requests: list, read checks and review comments, comment, approve, request changes, merge, and send failing checks to the agent. Needs `gh` or `glab` signed in on the Mac.
 - Agent usage: the Claude, Codex and Cursor limits with 5 hour and weekly bars.
 - Quick commands: your Quick Commands synced over iCloud.
-- Alerts and Live Activities: a short redacted summary of what an agent needs, delivered through your private iCloud, or through Apple push if you add your own key on the Mac. Live Activities show progress only.
+- Alerts: a short redacted summary of what an agent needs, delivered through your private iCloud, or through Apple push if you add your own key on the Mac.
 - Widgets: an Agents widget for the Home Screen and Lock Screen.
 - Siri and Shortcuts: What are my agents doing, Approve pending request, Stop agent.
 - Handoff: continue a session from the phone on the Mac, or the reverse.

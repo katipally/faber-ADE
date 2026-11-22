@@ -1,0 +1,30 @@
+name: Validate appcast
+
+on:
+  push:
+    branches: [main]
+    paths: [appcast.xml, .github/scripts/validate_appcast.py, .github/workflows/appcast.yml]
+  pull_request:
+    paths: [appcast.xml, .github/scripts/validate_appcast.py, .github/workflows/appcast.yml]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: appcast-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Well-formed XML
+        run: |
+          if [ -f appcast.xml ]; then
+            sudo apt-get update -qq && sudo apt-get install -y -qq libxml2-utils
+            xmllint --noout appcast.xml
+          else
+            echo "appcast.xml not present yet"
+          fi
+      - run: python3 .github/scripts/validate_appcast.py

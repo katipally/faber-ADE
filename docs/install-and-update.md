@@ -4,14 +4,14 @@ description: Download Faber, first run, command line setup and automatic updates
 ---
 ## Requirements
 
-- macOS 26 or later. A few browser features (agent access to iframe content, Global Privacy Control) need macOS 27 and stay off on 26.
+- macOS 26 or later on Apple silicon. A few browser features (agent access to iframe content, Global Privacy Control) need macOS 27 and stay off on 26.
 - The agent CLIs you want to use, installed on your Mac. Faber launches them; it does not bundle them.
 - Xcode with an iOS runtime, only if you want the [iOS Simulator](features/simulator.html) column.
 
 ## Install
 
-1. Open the [latest release](https://github.com/katipally/faber-ADE/releases/latest) and download `Faber-<version>.zip` (release tags are `mac-v<version>`).
-2. Unzip it and drag Faber to Applications.
+1. [Download Faber.dmg](https://github.com/katipally/faber-ADE/releases/latest/download/Faber.dmg). All builds are on the [releases page](https://github.com/katipally/faber-ADE/releases) (tags are `mac-v<version>`).
+2. Open the DMG and drag Faber to Applications.
 3. Open Faber. Releases are signed with a Developer ID and notarized by Apple, so Gatekeeper opens them without a warning.
 
 ## First run

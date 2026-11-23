@@ -8,7 +8,7 @@ Faber runs coding agents side by side on your Mac. Each task gets its own git wo
 
 ## Start here
 
-- [Install and update](install-and-update.html): get the app, first run, updates.
+- [Install and update](install-and-update.html): [download the DMG](https://github.com/katipally/faber-ADE/releases/latest/download/Faber.dmg), first run, updates.
 - [Terminals and agents](features/terminals-and-agents.html): the built-in agents and how to add your own.
 - [Git and pull requests](features/git-and-prs.html): review, conflicts, stacked PRs.
 - [iPhone companion](phone/overview.html): approve and steer agents from your phone.
@@ -26,7 +26,7 @@ workspace
 
 ## Good to know
 
-- Native Mac app (SwiftUI and AppKit). Needs macOS 26 or later.
+- Native Mac app (SwiftUI and AppKit). Needs macOS 26 or later on Apple silicon.
 - Free to download and use, personal or commercial. The app source is not public; this repo hosts releases, the update feed, issues, mods, the license and the privacy policy.
 - Your agents run on your Mac with your own accounts. See [privacy and telemetry](features/privacy-and-telemetry.html).
 - Questions: [FAQ](faq.html), [troubleshooting](troubleshooting.html), or [open an issue](https://github.com/katipally/faber-ADE/issues/new/choose).

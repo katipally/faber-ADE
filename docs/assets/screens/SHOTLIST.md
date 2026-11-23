@@ -32,7 +32,7 @@ Guidelines: Mac shots at 2x, window about 1400 to 1600 px wide, light or dark bu
 | `install-and-update-1.png` | install-and-update | The Releases page with the Faber zip highlighted | Screenshot of the latest GitHub release page with the Faber asset visible. | **dropped: needs a live GitHub release page** |
 | `install-and-update-2.png` | install-and-update | The first-run welcome showing the agents screen | Reset Faber state in a temp profile and capture the first welcome screen. |
 | `mods-overview-1.png` | mods/overview | The Mods page with installed mods | Install a couple of seed mods and capture the Mods page. |
-| `phone-features-1.png` | phone/features | An approval card on the iPhone | Capture an Allow, Deny, Always card in demo mode. | **dropped: needs an iPhone in demo mode** |
-| `phone-overview-1.png` | phone/overview | The iPhone app showing workspaces and a waiting approval | Take it from the iPhone in demo mode; use a device frame if you like. | **dropped: needs an iPhone in demo mode** |
+| `phone-features-1.png` | phone/features | An approval card on the iPhone | Capture an Allow, Deny, Always card in demo mode. |
+| `phone-overview-1.png` | phone/overview | The iPhone app showing workspaces and a waiting approval | Take it from the iPhone in demo mode; use a device frame if you like. |
 | `phone-pairing-1.png` | phone/pairing | The Mac's Settings, Devices pane with a pairing QR code | Click Pair new iPhone and capture the pane; blur the code. |
-| `hero-phone-1.png` | README | Faber Companion on an iPhone | Optional. iPhone in demo mode showing an approval card. | **dropped: needs an iPhone in demo mode** |
+| `hero-phone-1.png` | not used yet | Faber Companion on an iPhone | A chat with tasks, tool steps and a diff, from demo mode. Spare for the README. |

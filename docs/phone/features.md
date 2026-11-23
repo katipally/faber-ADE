@@ -2,6 +2,8 @@
 title: Phone features
 description: Approvals, chat, terminals, changes, files, pull requests, usage, widgets and more.
 ---
+![An approval card on the iPhone](../assets/screens/phone-features-1.png)
+
 - Approvals: Allow, Deny, Always Allow or Reply, from the app or the notification.
 - Chat: read and send to agent chats, with photos from the picker or camera, and dictation on the device.
 - Terminals: watch and type into terminals, if you allowed terminal access.
